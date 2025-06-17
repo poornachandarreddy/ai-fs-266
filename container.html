@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+        }
+        .container1, .container2 {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+        }
+        .container1 {
+            background-color: teal;
+        }
+        .container2 {
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">Left Side</div>
+        <div class="container2">Right Side</div>
+    </div>
+</body>
+</html>
